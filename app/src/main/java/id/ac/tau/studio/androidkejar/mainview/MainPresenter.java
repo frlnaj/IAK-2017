@@ -22,7 +22,7 @@ public class MainPresenter  implements InterfacePresenter {
         if (TextUtils.isEmpty(username)|| TextUtils.isEmpty(password)){
             mInterfaceMain.MessageError();
         } else {
-            if (username.equals("imam")&&(password.equals("imam"))){
+            if (username.equals("aji")&&(password.equals("aji"))){
                 mInterfaceMain.loginsucces();
             }else {
                 mInterfaceMain.loginerror();
