@@ -46,12 +46,12 @@ public class MainActivity extends AppCompatActivity implements InterfaceMain {
 
     @Override
     public void MessageError() {
-        Toast.makeText(this, " Username atau Password tidak boleh kosong", Toast.LENGTH_LONG);
+        Toast.makeText(this, " Username atau Password tidak boleh kosong", Toast.LENGTH_LONG).show();
     }
 
     @Override
     public void loginerror() {
-        Toast.makeText(this, " Username atau Password salah", Toast.LENGTH_LONG);
+        Toast.makeText(this, " Username atau Password salah", Toast.LENGTH_LONG).show();
     }
 
     @Override

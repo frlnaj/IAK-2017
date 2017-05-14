@@ -19,4 +19,13 @@
         android:layout_marginStart="18dp"
         android:layout_marginTop="15dp"
         android:id="@+id/txtusername" />
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/txtusername"
+        android:layout_alignStart="@+id/txtusername"
+        android:layout_marginTop="14dp"
+        android:id="@+id/list_item" />
+
 </RelativeLayout>
